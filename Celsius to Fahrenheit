@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{ int z;
+   printf("Choose the unit to be converted :\n\n");
+   printf("1. Celsius to Fahrenheit \n\n");
+   scanf("%d", &z);
+   float c, f;
+if(z==1){
+ printf("Enter the temperature in celcius:\n ");
+    scanf("%f", &c);
+    f = c*(9/5 + 35);
+    printf("Temperature in Farenheit: %f",f);
+}
